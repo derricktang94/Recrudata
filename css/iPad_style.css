@@ -1,0 +1,564 @@
+@media only screen       
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+
+{ /* STYLES GO HERE */
+ 
+  /** Nav bar **/
+
+	.navbar-default .nav .header
+	{
+	  font-size:16.8px;
+	}
+	
+	.quote
+	{
+	 font-size:48px;
+	}
+	 
+	 .description
+	{
+	  margin-top:60px;
+	  margin-bottom:75px;
+	  font-size:19.2px;
+	}
+	 
+	.footer
+	{  
+	  font-size:8.8px;
+	  bottom:25px;
+	  letter-spacing:0px;
+	}
+	
+	#search
+	{
+	  height: 50px;
+	  width: 424px;
+	  font-size:16.79px;
+	  border-radius:5px;
+	}
+	
+	#Search_btn
+	{
+	  border-radius:5px;
+	  width:95px;
+	  height: 50px;
+	  font-size:30px;
+	}
+		
+	.footer2
+	{
+	  font-size:8.8px;
+	}
+	
+	 div.hr 
+	 {
+		margin-top:25px;
+    }
+    div.hr:after 
+	{
+		top: 24px;
+	}
+  
+    div.hr:before 
+       {
+	 top: 25px;
+	}
+
+	 .quote_desc
+	   {
+		 font-size: 28.8px;
+		 margin-top:100px;
+		 letter-spacing:2px;
+	  }
+	  
+	   .feature_div
+	 {
+	   margin-top:80px;
+	   margin-bottom:50px;
+	 }
+	   
+	  .feature_title
+	  {
+	   font-size:28.8px;
+	   padding-top:60px;
+	 }
+	 .feature_desc
+	 {
+	  font-size:16.8px;
+	 }
+	 
+	
+	 .feature_desc_rightdiv
+	 {
+       padding-left:70px;
+	 }
+	 
+	 .feature_desc_leftdiv
+	 {
+	   padding-right:60px;
+	 }
+	 
+	 .package_desc
+	 {
+	  font-size:16.8px;
+	  letter-spacing:0.5px;
+	 }
+
+	 .package_title
+	 {
+	   font-size:19.2px;
+	   margin-bottom:60px;
+	 }
+	  .storage
+	   {
+	   font-size: 96px;
+	   }
+	   .M_size
+	    {
+	   font-size:14.4px;
+	   margin-top:-20px;
+	   }
+	  .Cloud
+	    {
+		 margin-top:-130px; 
+	  }
+	  
+	   .package_image
+	      {
+		 margin-top: 115px;
+	   }
+	 .price
+	 {
+	   font-size:24px;
+	 }
+ 
+	 .package_description
+	 {
+	  font-size:16.8px;
+	  letter-spacing:1.5px;
+	 }
+
+	 .Buy_button
+	 {
+	  width: 78px;
+	  height: 78px;
+     }
+	 
+	
+	.buy_label
+	{
+	 font-size:14.4px;
+	 letter-spacing:1px;
+	}
+	
+	#smile_pic
+	{
+	  margin-right:30px;
+	}
+	
+    #promotion_quote
+      {
+    font-size: 48px;
+	margin-top: -240px;
+    text-align:center;
+    }
+	 
+	#intro_quote
+	{
+	  margin-top:70px;
+	}
+
+	.reason_title
+	{
+	  font-size:19.2px;
+	  margin-top:70px;
+	  margin-bottom:30px;
+	}
+	
+	.reason_desc
+	{
+	  font-size:18.8px;
+	  letter-spacing:0px;
+	}
+	
+   #contact
+      {
+	font-size:28.8px;
+	margin-top:-240px;
+   }
+   
+   #phone_logo 
+     {
+     font-size: 32px;
+   }
+	
+	/* button */
+	.button
+	{
+	  border: 2px solid #1B75BB;
+	  background:Transparent;
+	  border-radius:10px;
+	  width: 257px;
+	  height: 53px;
+	 }
+	
+	.btn_control
+	 {
+	  font-size: 16.8px;
+	  padding-top:7px;
+	 }
+	 
+	#contact_div
+	{
+	  padding-left:60px;
+	}
+	
+	#contact_quote
+	{
+	  font-size:48px;
+	}
+	
+	.info
+	{
+	 font-size:24px;
+	}
+	
+	.icon
+	{
+	 float:left;
+	 margin-right:30px;
+	 margin-top:10px;
+	}
+	
+	
+	#follow
+	{
+	   font-size:28.8px;
+	   margin-top: -150px;
+	}
+
+    #contact_form
+	{
+	  margin-left:40px;
+	}
+	
+	.form
+	{
+	  font-size:18.8px;  
+	}
+	
+	.social_logo
+	{
+     margin-right:65px; 
+	}
+	
+
+	#not_found
+	{
+	 font-size:19.2px;
+	}
+	
+	#hr3
+	{ 
+       margin-top: 40px;	   
+	 }
+	 
+	 #img_404
+	{
+	 margin-top:-380px;
+	}
+	   
+ /** Login modal **/
+	 .login_modal_bg
+	 {
+	   background-image: url(../Images/Login_bg.png);
+	 }
+	 
+	 #login_S_logo
+	 {
+	   margin-top:48px;
+	 }
+	   #login_desc
+	   {
+		 font-size:19.2px;
+	   }
+	   
+	   .login_box
+	   {
+		 font-size:16.8px;
+		 height:65px;
+		 margin-bottom:20px;
+	   }
+     
+	 input[type = "checkbox"] + label span 
+	 {
+	   font-size:11.2px; 
+	 }  
+	 
+	 .login_footer
+	  {
+	   margin-top:70px;
+	 }
+   
+	.login_desc2
+	{
+	  font-size:11.2px;
+    }
+	
+	/** forgot password modal **/
+	
+	#forget_pw
+	{
+	 font-size:28.8px;
+	}
+	
+	#forget_pw__desc
+	{
+	 font-size:14.4px;
+	}
+
+	.submit_btn
+	{
+	  width: 255px;
+	  height: 60px;  
+	  font-size:16.8px;
+	}
+	
+	/** register modal **/
+	div.hr2 
+	 {
+	    margin-bottom:40px;
+		margin-left:35px;
+		margin-right:35px;
+     }
+     div.hr2:after 
+	 {
+		top: 232px;
+	}
+    div.hr2:before 
+	{
+		top: 233px;
+    }
+	
+	.register_S_logo
+	{
+      margin-top:48px;	
+	}
+
+	.purchase
+	{
+	  font-size:19.2px; 
+	}
+	
+	.registration_package_fee
+	{
+	 font-size:24px;
+	}
+	.register_title
+	{ 
+	  font-size:28.8px;
+	}
+	.registration_box
+	{
+	  
+	  height: 60px;
+	  font-size:16.8px;
+	}
+	
+	.term
+	{
+	  font-size:9.6px;
+	}
+	
+	.term  > span
+	{
+	  font-size:9.6px;
+	}
+	
+	/* .modal.modal-wide .modal-dialog 
+	{
+      width: 400px;
+    } 
+	 */
+	.mobile_registration_bg
+	{
+	  background-image: url(../Images/mobile_registration_bg.png);
+	  height:980px;
+	}
+	
+	.form-control-feedback 
+	{
+      top: 15px;
+     }
+	 
+	 .package_glyphicon
+	{
+	  right: 180px;
+	  top: 110px;
+	  color: #BBBDBF;
+	}
+
+	
+/******** Font-face ********/
+@font-face {
+    font-family: 'Lato-BlackItalic';
+    src: url('../fonts/Lato-BlackItalic.eot');
+    src: url('../fonts/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-BlackItalic.woff') format('woff'),
+         url('../fonts/Lato-BlackItalic.ttf') format('truetype'),
+         url('../fonts/Lato-BlackItalic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('../fonts/Lato-Black.eot');
+    src: url('../fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Black.woff') format('woff'),
+         url('../fonts/Lato-Black.ttf') format('truetype'),
+         url('../fonts/Lato-Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-LightItalic';
+    src: url('../fonts/Lato-LightItalic.eot');
+    src: url('../fonts/Lato-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-LightItalic.woff') format('woff'),
+         url('../fonts/Lato-LightItalic.ttf') format('truetype'),
+         url('../fonts/Lato-LightItalic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../fonts/Lato-Light.eot');
+    src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Light.woff') format('woff'),
+         url('../fonts/Lato-Light.ttf') format('truetype'),
+         url('../fonts/Lato-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+	
+@font-face {
+    font-family: 'Lato-Semibold';
+    src: url('../fonts/Lato-Semibold.eot');
+    src: url('../fonts/Lato-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Semibold.woff') format('woff'),
+         url('../fonts/Lato-Semibold.ttf') format('truetype'),
+         url('../fonts/Lato-Semibold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../fonts/Lato-Bold.eot');
+    src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Bold.woff') format('woff'),
+         url('../fonts/Lato-Bold.ttf') format('truetype'),
+         url('../fonts/Lato-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.eot');
+    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Regular.woff') format('woff'),
+         url('../fonts/Lato-Regular.ttf') format('truetype'),
+         url('../fonts/Lato-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-SemiboldItalic';
+    src: url('../fonts/Lato-SemiboldItalic.eot');
+    src: url('../fonts/Lato-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-SemiboldItalic.woff') format('woff'),
+         url('../fonts/Lato-SemiboldItalic.ttf') format('truetype'),
+         url('../fonts/Lato-SemiboldItalic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Italic';
+    src: url('../fonts/Lato-Italic.eot');
+    src: url('../fonts/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Italic.woff') format('woff'),
+         url('../fonts/Lato-Italic.ttf') format('truetype'),
+         url('../fonts/Lato-Italic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {          
+    font-family: 'Lato-Thin';
+    src: url('../fonts/Lato-Thin.eot');
+    src: url('../fonts/Lato-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Thin.woff') format('woff'),
+         url('../fonts/Lato-Thin.ttf') format('truetype'),
+         url('../fonts/Lato-Thin.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+	
+@font-face {
+    font-family:'BebasNeue-Regular';
+	src: url('../fonts/BebasNeue-Regular.eot');
+    src: url('../fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-Regular.woff') format('woff'),
+         url('../fonts/BebasNeue-Regular.ttf') format('truetype'),
+         url('../fonts/BebasNeue-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*** slidebar **/
+.sb-slidebar a 
+{
+	font-size:20px;
+}
+
+.sb-menu li 
+{
+  margin-left:15px ;
+}
+
+#slidebar_line
+{
+  margin-top:145px;
+}
+
+#social_logo_list .sb-social_logo
+{
+  font-size:20px;
+}
+
+.sb-width-custom
+{
+  width:26%;
+}
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) 
+{ /* STYLES GO HERE */
+   
+    #follow
+	{
+	   margin-top: 50px;
+	}
+}

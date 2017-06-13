@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Recrudata</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="Images/Tab_icon.png">
+	
+   <!-- CSS -->
+   <link rel = "stylesheet" href = "css/bootstrap.min.css" >
+   <link rel = "stylesheet" type = "text/css" href = "css/slidebars.min.css"> 
+   <link rel = "stylesheet" href = "font-awesome/css/font-awesome.min.css">
+   <link rel = "stylesheet" type = "text/css" href = "css/Style.css"> 
+   <link rel = "stylesheet" type = "text/css" href = "css/iPad_style.css"> 
+   <link rel = "stylesheet" type = "text/css" href = "css/iPhone5_5S_style.css" >  
+   <link rel = "stylesheet" type = "text/css" href = "css/iPhone6p_style.css">  
+   
+</head>
+
+<body>
+    	 
+    <div id = "sb-site" class="background_img">
+	
+		<div class = "container">
+		   
+		   <nav class = "navbar navbar-default sb-slide" role = "navigation">
+			
+					<div class="navbar-header">
+						 <a class="navbar-brand" href="index.html"><img src = "Images/Software_logo_1.png"  id = "navbar_software_logo" alt = ""/></a>
+					</div>
+					 
+					<div class = "nav">
+						  <ul class="list-inline">
+							 <li><a class = "header"><i class="fa fa-smile-o fa-lg navbar_logo"></i>JOHNNY DEEP</a></li>
+							 <li class = "header_menu">
+								  <a href="#" class="sb-toggle-right header" role="button" aria-expanded="false">
+								  <i class="fa fa-bars fa-lg navbar_logo"></i>MENU</a>
+							 </li>
+						  </ul>
+					</div>
+				 
+		   </nav>
+	   
+		 <div id = "content" class = "row" >
+			  <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				  <p class = "quote iphone_quote">Search your <span class = "span iphone_span">CV</span> now!!!</p>
+				  <div class = "desc_div">
+					  <p class = "description iphone_description">It is the only one thing you need to do.<br>Just type in and click search, then you will get it.</p>
+				  </div>
+			  </div>
+		
+		 
+		 <div class = "row">
+			 <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12" id = "search_textbox">
+				 <form class = "form-inline">
+					 <div class="form-group" id = "form">
+						<label for = "search" class = "sr-only">Type in to search CV...</label>  
+						<input type = "text" id = "search" placeholder = "Type in to search CV...">
+					 </div>
+		
+				  <button id = "Search_btn" href = ""><i class = "fa fa-search"></i></button> 
+				 
+				 </form>
+			</div>
+		 </div>
+	   </div>
+	   
+		 <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
+			  <footer>
+				  <p class="text-uppercase">all right reserved.2015&copy; recrudata.</p>
+			  </footer>
+		 </div>
+		 
+		 </div>  <!-- end of container -->
+		 
+   </div>  <!-- sb-site -->
+
+ 
+ <!-- right slidebar -->
+ <div class="sb-slidebar sb-right sb-style-overlay sb-width-custom">
+	    <!-- Your right Slidebar content. -->
+		<nav>
+		     <a href = "#" id = "slidebar_close" class = "sb-close"><img src = "Images/X_mark.png" alt = ""></a>
+		     <hr id = "slidebar_line">
+			 <ul class="sb-menu">
+				<li class="sb-close slidebar_list"><a href="index.html"><img src = "Images/Home_logo.png" class = "slidebar_logo" alt = "" />HOME</a></li>
+				<li class="sb-close slidebar_list"><a href="Features.html"><img src = "Images/Features_logo.png" class = "slidebar_logo" alt = "" />FEATURES</a></li>
+				<li class="sb-close slidebar_list"><a href="Pricing.html"><img src = "Images/Pricing_logo.png" class = "slidebar_logo" alt = "" />PRICING</a></li>
+				<li class="sb-close slidebar_list"><a href="Promotion.html"><img src = "Images/About_logo.png" class = "slidebar_logo" alt = "" />ABOUT</a></li>
+				<li class="sb-close slidebar_list"><a href="Enquiry.html"><img src = "Images/Contact_logo.png" class = "slidebar_logo" alt = "" />CONTACT</a></li>
+				<li id = "social_logo_list"><i class = "fa fa-facebook sb-social_logo"></i><i class = "fa fa-twitter sb-social_logo"></i><i class = "fa fa-google-plus sb-social_logo"></i><i class = "fa fa-instagram sb-social_logo"></i></li>
+			 </ul>
+	    </nav>
+ </div>
+ 
+ <!-- Javascript -->
+   <script src = "js/jquery-1.11.2.min.js"></script>
+   <script src = "js/bootstrap.min.js"></script>
+   <script src = "js/slidebars.min.js"></script>
+   <script src = "js/validator.min.js"></script>
+   <script src = "js/jquery.placeholder.js"></script>
+   <script src = "js/jquery.validate.js"></script>
+   
+    <script>
+      (function($) {
+        $(document).ready(function() {
+          $.slidebars();
+        });
+      }) (jQuery);
+    </script>
+	
+   
+     <script>
+	   $(function() {
+		 $('input, textarea').placeholder();
+	   });
+   </script>
+   
+   
+</body>
+</html>
